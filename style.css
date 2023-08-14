@@ -55,11 +55,15 @@
 h1 {
   font-size: 3rem;
   color: #f8faf8;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 2.25rem;
   color: #1f2937;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
 }
 
 p {
@@ -107,5 +111,13 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+  }
+}
+
+/* main section */
+main {
+  & h2 {
+    text-align: center;
+    margin: 1.5rem 0rem;
   }
 }
