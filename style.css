@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -42,6 +43,11 @@
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #2b63bd;
 }
 
 .quote {
@@ -83,22 +89,29 @@ p {
 
 /* header */
 header {
+  position: sticky;
+  top: 0;
   background-color: #1f2937;
   & nav {
     & ul {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 1rem;
+      gap: 0.5rem;
 
       & li {
         list-style: none;
+        transition: background-color 0.5s ease-in-out;
+        & :hover {
+          background-color: #2b333f;
+        }
         & a {
           color: #e5e7eb;
           text-decoration: none;
           font-size: 1.125rem;
           font-family: "Nunito", sans-serif;
           font-weight: 300;
+          padding: 1rem 0.5rem;
         }
       }
     }
