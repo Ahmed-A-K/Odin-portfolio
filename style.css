@@ -146,7 +146,34 @@ main {
     color: #656b74;
     font-size: 1.5rem;
     text-align: center;
-    margin: 1rem 0rem;
+    margin: 1rem 0rem 5rem 0rem;
+  }
+}
+
+/* quote box */
+#quote-box {
+  background-color: #e5e7eb;
+  text-align: center;
+
+  & div {
+    width: 40%;
+    margin: 5rem 0rem;
+  }
+
+  & h5 {
+    font-size: 2rem;
+    color: #424b57;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  & h4 {
+    text-align: end;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #1f2937;
+    font-size: 1.2rem;
   }
 }
 
