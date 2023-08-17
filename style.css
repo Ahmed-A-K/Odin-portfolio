@@ -195,3 +195,15 @@ article {
     border: 2px solid #f8faf8;
   }
 }
+
+/* footer styling */
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 2rem 0rem;
+  & p {
+    font-size: 1rem;
+  }
+}
