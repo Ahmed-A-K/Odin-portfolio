@@ -120,4 +120,26 @@ main {
     text-align: center;
     margin: 1.5rem 0rem;
   }
+
+  & .img-box {
+    width: 9.375rem;
+    height: 9.375rem;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      border-radius: 7px;
+    }
+  }
+
+  & p {
+    color: #656b74;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0rem;
+  }
 }
+
+/* article section */
